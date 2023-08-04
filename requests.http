@@ -10,4 +10,4 @@ content-type: application/json
 GET http://localhost:3000/messages/messages
 
 ### message with id
-http://localhost:3000/messages/messages/id
+http://localhost:3000/messages/1221
