@@ -77,6 +77,24 @@ decorator para pegar query na url da request
 
 decorator para pegar json na url da request
 @Body()
+
+npm install class-validator
+npm install class-transformer
+
+
+DTO
+Data tranfer object
+Classe que descreve as diferentes propiedades que o body da request deve ter
+dto ficam dentro de PIPES que servem para validar os dados que são mandados durante a request
+
+
+Services
+Classes que armazenam as regras de negocio
+
+Repositories
+lugar onde colocar logica de armazenamento de dados
+exmeplo typeORM entity, Mongoose schema
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
