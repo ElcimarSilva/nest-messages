@@ -81,6 +81,13 @@ decorator para pegar json na url da request
 npm install class-validator
 npm install class-transformer
 
+Fluxo basico do back
+- Request
+    - Pipe (Validate data contained in the request)
+    - Guard (Make sure the user is authenticated)
+    - Controller (Route the request to a particular function)
+    - Service (Run some business logic)
+    - Repository (Access a database)
 
 DTO
 Data tranfer object
@@ -95,6 +102,10 @@ Repositories
 lugar onde colocar logica de armazenamento de dados
 exmeplo typeORM entity, Mongoose schema
 
+
+Inversão de controle
+- classes não devem criar instancias que dependem uma da outra
+- em outras palavras é para não utilizar o constructor e o this
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
